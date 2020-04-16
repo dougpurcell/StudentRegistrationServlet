@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!-- JDBC Servlet Example -->
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+   <title>Student Registration</title>
+</head>
+
+<body>
+    <h1>Add Student Record</h1>
+   <form action = "/StudentRegistrationServlet/JDBCServlet" method = "get">
+        <label>First Name</label>
+        <input type="text" name="firstName"></input><br />
+        <label>Last Name</label>
+        <input type="text" name="lastName"></input><br />
+        <label>Degree Status</label>
+        <input type="text" name="degreeStatus"></input><br />
+        <label>Major</label>
+        <input type="text" name="major"></input>
+      <p><label>Click the button to add a student record.
+         <input type = "submit" value = "Add Record" />
+      </label></p>
+   </form>
+</body>
+</html>
